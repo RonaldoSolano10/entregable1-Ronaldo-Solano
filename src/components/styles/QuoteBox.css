@@ -1,0 +1,36 @@
+.quotebox {
+    max-width: 400px;
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    background-size: cover;
+}
+
+.quotebox__title{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.quotebox__box {
+    padding: 4em;
+    border-radius: 20PX;
+    background: linear-gradient(white, rgb(66, 65, 65));
+    opacity: 70%;
+    color: black;
+    font-size: 20px;
+}
+
+.quotebox__author {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+}
+
+button {
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(59, 58, 58);
+    opacity: 80%;
+}
